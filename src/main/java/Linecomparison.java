@@ -8,7 +8,6 @@ public class Linecomparison {
             System.out.println(length1);
             return length1;
         }
-
         public double Line2 (int x3,int x4,int y3,int y4) {
             double M = (x3-x4)*(x3-x4) + (y3-y4)*(y3-y4);
             double length2 = Math.sqrt(M);
